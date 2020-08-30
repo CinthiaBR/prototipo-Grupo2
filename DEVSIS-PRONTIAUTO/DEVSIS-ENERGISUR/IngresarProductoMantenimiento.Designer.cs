@@ -205,7 +205,7 @@
             // 
             // txtDescrpcion
             // 
-            this.txtDescrpcion.Location = new System.Drawing.Point(185, 285);
+            this.txtDescrpcion.Location = new System.Drawing.Point(181, 288);
             this.txtDescrpcion.Multiline = true;
             this.txtDescrpcion.Name = "txtDescrpcion";
             this.txtDescrpcion.Size = new System.Drawing.Size(244, 88);

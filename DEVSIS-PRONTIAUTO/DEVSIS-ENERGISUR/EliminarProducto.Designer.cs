@@ -53,140 +53,157 @@
             // 
             // textNombreProducto
             // 
-            this.textNombreProducto.Location = new System.Drawing.Point(241, 81);
+            this.textNombreProducto.Location = new System.Drawing.Point(181, 66);
+            this.textNombreProducto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textNombreProducto.Name = "textNombreProducto";
-            this.textNombreProducto.Size = new System.Drawing.Size(329, 22);
+            this.textNombreProducto.Size = new System.Drawing.Size(248, 20);
             this.textNombreProducto.TabIndex = 35;
             // 
             // textMarca
             // 
-            this.textMarca.Location = new System.Drawing.Point(241, 121);
+            this.textMarca.Location = new System.Drawing.Point(181, 98);
+            this.textMarca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textMarca.Name = "textMarca";
-            this.textMarca.Size = new System.Drawing.Size(329, 22);
+            this.textMarca.Size = new System.Drawing.Size(248, 20);
             this.textMarca.TabIndex = 34;
             // 
             // textVoltaje
             // 
-            this.textVoltaje.Location = new System.Drawing.Point(241, 201);
+            this.textVoltaje.Location = new System.Drawing.Point(181, 163);
+            this.textVoltaje.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textVoltaje.Name = "textVoltaje";
-            this.textVoltaje.Size = new System.Drawing.Size(329, 22);
+            this.textVoltaje.Size = new System.Drawing.Size(248, 20);
             this.textVoltaje.TabIndex = 32;
             // 
             // textAmperaje
             // 
-            this.textAmperaje.Location = new System.Drawing.Point(241, 241);
+            this.textAmperaje.Location = new System.Drawing.Point(181, 196);
+            this.textAmperaje.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textAmperaje.Name = "textAmperaje";
-            this.textAmperaje.Size = new System.Drawing.Size(329, 22);
+            this.textAmperaje.Size = new System.Drawing.Size(248, 20);
             this.textAmperaje.TabIndex = 31;
             // 
             // textCantidad
             // 
-            this.textCantidad.Location = new System.Drawing.Point(241, 281);
+            this.textCantidad.Location = new System.Drawing.Point(181, 228);
+            this.textCantidad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textCantidad.Name = "textCantidad";
-            this.textCantidad.Size = new System.Drawing.Size(329, 22);
+            this.textCantidad.Size = new System.Drawing.Size(248, 20);
             this.textCantidad.TabIndex = 30;
             // 
             // textPrecio
             // 
-            this.textPrecio.Location = new System.Drawing.Point(241, 321);
+            this.textPrecio.Location = new System.Drawing.Point(181, 261);
+            this.textPrecio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textPrecio.Name = "textPrecio";
-            this.textPrecio.Size = new System.Drawing.Size(329, 22);
+            this.textPrecio.Size = new System.Drawing.Size(248, 20);
             this.textPrecio.TabIndex = 29;
             // 
             // labelPrecio
             // 
             this.labelPrecio.AutoSize = true;
-            this.labelPrecio.Location = new System.Drawing.Point(12, 321);
+            this.labelPrecio.Location = new System.Drawing.Point(9, 261);
+            this.labelPrecio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelPrecio.Name = "labelPrecio";
-            this.labelPrecio.Size = new System.Drawing.Size(48, 17);
+            this.labelPrecio.Size = new System.Drawing.Size(37, 13);
             this.labelPrecio.TabIndex = 28;
             this.labelPrecio.Text = "Precio";
             // 
             // labelCantidad
             // 
             this.labelCantidad.AutoSize = true;
-            this.labelCantidad.Location = new System.Drawing.Point(12, 281);
+            this.labelCantidad.Location = new System.Drawing.Point(9, 228);
+            this.labelCantidad.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelCantidad.Name = "labelCantidad";
-            this.labelCantidad.Size = new System.Drawing.Size(103, 17);
+            this.labelCantidad.Size = new System.Drawing.Size(78, 13);
             this.labelCantidad.TabIndex = 27;
             this.labelCantidad.Text = "Cantidad inicial";
             // 
             // labelAmperaje
             // 
             this.labelAmperaje.AutoSize = true;
-            this.labelAmperaje.Location = new System.Drawing.Point(12, 241);
+            this.labelAmperaje.Location = new System.Drawing.Point(9, 196);
+            this.labelAmperaje.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelAmperaje.Name = "labelAmperaje";
-            this.labelAmperaje.Size = new System.Drawing.Size(68, 17);
+            this.labelAmperaje.Size = new System.Drawing.Size(51, 13);
             this.labelAmperaje.TabIndex = 26;
             this.labelAmperaje.Text = "Amperaje";
             // 
             // labelVoltaje
             // 
             this.labelVoltaje.AutoSize = true;
-            this.labelVoltaje.Location = new System.Drawing.Point(12, 201);
+            this.labelVoltaje.Location = new System.Drawing.Point(9, 163);
+            this.labelVoltaje.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelVoltaje.Name = "labelVoltaje";
-            this.labelVoltaje.Size = new System.Drawing.Size(51, 17);
+            this.labelVoltaje.Size = new System.Drawing.Size(39, 13);
             this.labelVoltaje.TabIndex = 25;
             this.labelVoltaje.Text = "Voltaje";
             // 
             // labelTipo
             // 
             this.labelTipo.AutoSize = true;
-            this.labelTipo.Location = new System.Drawing.Point(12, 161);
+            this.labelTipo.Location = new System.Drawing.Point(9, 131);
+            this.labelTipo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelTipo.Name = "labelTipo";
-            this.labelTipo.Size = new System.Drawing.Size(36, 17);
+            this.labelTipo.Size = new System.Drawing.Size(28, 13);
             this.labelTipo.TabIndex = 24;
             this.labelTipo.Text = "Tipo";
             // 
             // labelMarca
             // 
             this.labelMarca.AutoSize = true;
-            this.labelMarca.Location = new System.Drawing.Point(12, 121);
+            this.labelMarca.Location = new System.Drawing.Point(9, 98);
+            this.labelMarca.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelMarca.Name = "labelMarca";
-            this.labelMarca.Size = new System.Drawing.Size(47, 17);
+            this.labelMarca.Size = new System.Drawing.Size(37, 13);
             this.labelMarca.TabIndex = 23;
             this.labelMarca.Text = "Marca";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 81);
+            this.label1.Location = new System.Drawing.Point(9, 66);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(141, 17);
+            this.label1.Size = new System.Drawing.Size(106, 13);
             this.label1.TabIndex = 22;
             this.label1.Text = "Nombre del producto";
             // 
             // botonEliminar
             // 
-            this.botonEliminar.Location = new System.Drawing.Point(281, 514);
+            this.botonEliminar.Location = new System.Drawing.Point(11, 416);
+            this.botonEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.botonEliminar.Name = "botonEliminar";
-            this.botonEliminar.Size = new System.Drawing.Size(289, 27);
+            this.botonEliminar.Size = new System.Drawing.Size(217, 22);
             this.botonEliminar.TabIndex = 21;
             this.botonEliminar.Text = "Eliminar";
             this.botonEliminar.UseVisualStyleBackColor = true;
             // 
             // textCodigo
             // 
-            this.textCodigo.Location = new System.Drawing.Point(241, 41);
+            this.textCodigo.Location = new System.Drawing.Point(181, 33);
+            this.textCodigo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textCodigo.Name = "textCodigo";
-            this.textCodigo.Size = new System.Drawing.Size(329, 22);
+            this.textCodigo.Size = new System.Drawing.Size(248, 20);
             this.textCodigo.TabIndex = 20;
             // 
             // labelCodigo
             // 
             this.labelCodigo.AutoSize = true;
-            this.labelCodigo.Location = new System.Drawing.Point(12, 41);
+            this.labelCodigo.Location = new System.Drawing.Point(9, 33);
+            this.labelCodigo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelCodigo.Name = "labelCodigo";
-            this.labelCodigo.Size = new System.Drawing.Size(132, 17);
+            this.labelCodigo.Size = new System.Drawing.Size(100, 13);
             this.labelCodigo.TabIndex = 19;
             this.labelCodigo.Text = "Código de producto";
             // 
             // labelEliminarProducto
             // 
             this.labelEliminarProducto.AutoSize = true;
-            this.labelEliminarProducto.Location = new System.Drawing.Point(200, 11);
+            this.labelEliminarProducto.Location = new System.Drawing.Point(150, 9);
+            this.labelEliminarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelEliminarProducto.Name = "labelEliminarProducto";
-            this.labelEliminarProducto.Size = new System.Drawing.Size(118, 17);
+            this.labelEliminarProducto.Size = new System.Drawing.Size(88, 13);
             this.labelEliminarProducto.TabIndex = 18;
             this.labelEliminarProducto.Text = "Eliminar producto";
             // 
@@ -196,33 +213,37 @@
             this.comboBoxTipo.Items.AddRange(new object[] {
             "Sellado",
             "No Sellado"});
-            this.comboBoxTipo.Location = new System.Drawing.Point(241, 160);
+            this.comboBoxTipo.Location = new System.Drawing.Point(181, 130);
+            this.comboBoxTipo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBoxTipo.Name = "comboBoxTipo";
-            this.comboBoxTipo.Size = new System.Drawing.Size(329, 24);
+            this.comboBoxTipo.Size = new System.Drawing.Size(248, 21);
             this.comboBoxTipo.TabIndex = 37;
             this.comboBoxTipo.Text = "Tipo";
             // 
             // textBoxGarantia
             // 
-            this.textBoxGarantia.Location = new System.Drawing.Point(241, 360);
+            this.textBoxGarantia.Location = new System.Drawing.Point(181, 292);
+            this.textBoxGarantia.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxGarantia.Name = "textBoxGarantia";
-            this.textBoxGarantia.Size = new System.Drawing.Size(329, 22);
+            this.textBoxGarantia.Size = new System.Drawing.Size(248, 20);
             this.textBoxGarantia.TabIndex = 41;
             // 
             // labelGarantía
             // 
             this.labelGarantía.AutoSize = true;
-            this.labelGarantía.Location = new System.Drawing.Point(12, 360);
+            this.labelGarantía.Location = new System.Drawing.Point(9, 292);
+            this.labelGarantía.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelGarantía.Name = "labelGarantía";
-            this.labelGarantía.Size = new System.Drawing.Size(217, 17);
+            this.labelGarantía.Size = new System.Drawing.Size(164, 13);
             this.labelGarantía.TabIndex = 40;
             this.labelGarantía.Text = "Número de garantía del producto";
             // 
             // botonRegresar
             // 
-            this.botonRegresar.Location = new System.Drawing.Point(12, 514);
+            this.botonRegresar.Location = new System.Drawing.Point(232, 416);
+            this.botonRegresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.botonRegresar.Name = "botonRegresar";
-            this.botonRegresar.Size = new System.Drawing.Size(263, 27);
+            this.botonRegresar.Size = new System.Drawing.Size(197, 22);
             this.botonRegresar.TabIndex = 42;
             this.botonRegresar.Text = "Regresar";
             this.botonRegresar.UseVisualStyleBackColor = true;
@@ -230,9 +251,9 @@
             // 
             // EliminarProducto
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(582, 553);
+            this.ClientSize = new System.Drawing.Size(436, 449);
             this.Controls.Add(this.botonRegresar);
             this.Controls.Add(this.textBoxGarantia);
             this.Controls.Add(this.labelGarantía);
@@ -254,6 +275,7 @@
             this.Controls.Add(this.textCodigo);
             this.Controls.Add(this.labelCodigo);
             this.Controls.Add(this.labelEliminarProducto);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "EliminarProducto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EliminarProducto";
