@@ -1,6 +1,6 @@
 ﻿namespace DEVSIS_ENERGISUR
 {
-    partial class IngresarProductoMantenimiento
+    partial class EliminarArticuloMantenimiento
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.txtNombreArticulo = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtDescrpcion = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtTipoMan = new System.Windows.Forms.TextBox();
             this.botonRegresar = new System.Windows.Forms.Button();
             this.textNombreProductoMant = new System.Windows.Forms.TextBox();
             this.textMarcaMant = new System.Windows.Forms.TextBox();
@@ -41,13 +47,61 @@
             this.textCodigoMant = new System.Windows.Forms.TextBox();
             this.labelCodigo = new System.Windows.Forms.Label();
             this.labelIngresarProducto = new System.Windows.Forms.Label();
-            this.txtTipoMan = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtDescrpcion = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtNombreArticulo = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
+            // 
+            // txtNombreArticulo
+            // 
+            this.txtNombreArticulo.Location = new System.Drawing.Point(181, 33);
+            this.txtNombreArticulo.Margin = new System.Windows.Forms.Padding(2);
+            this.txtNombreArticulo.Name = "txtNombreArticulo";
+            this.txtNombreArticulo.Size = new System.Drawing.Size(248, 20);
+            this.txtNombreArticulo.TabIndex = 79;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(10, 33);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(84, 13);
+            this.label4.TabIndex = 78;
+            this.label4.Text = "Nombre Artículo";
+            // 
+            // txtDescrpcion
+            // 
+            this.txtDescrpcion.Location = new System.Drawing.Point(181, 288);
+            this.txtDescrpcion.Multiline = true;
+            this.txtDescrpcion.Name = "txtDescrpcion";
+            this.txtDescrpcion.Size = new System.Drawing.Size(244, 88);
+            this.txtDescrpcion.TabIndex = 77;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(10, 288);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.TabIndex = 76;
+            this.label3.Text = "Descripción";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(10, 240);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(68, 13);
+            this.label2.TabIndex = 75;
+            this.label2.Text = "Tipo Artículo";
+            // 
+            // txtTipoMan
+            // 
+            this.txtTipoMan.Location = new System.Drawing.Point(181, 240);
+            this.txtTipoMan.Margin = new System.Windows.Forms.Padding(2);
+            this.txtTipoMan.Name = "txtTipoMan";
+            this.txtTipoMan.Size = new System.Drawing.Size(248, 20);
+            this.txtTipoMan.TabIndex = 74;
             // 
             // botonRegresar
             // 
@@ -55,7 +109,7 @@
             this.botonRegresar.Margin = new System.Windows.Forms.Padding(2);
             this.botonRegresar.Name = "botonRegresar";
             this.botonRegresar.Size = new System.Drawing.Size(190, 23);
-            this.botonRegresar.TabIndex = 53;
+            this.botonRegresar.TabIndex = 73;
             this.botonRegresar.Text = "Regresar";
             this.botonRegresar.UseVisualStyleBackColor = true;
             // 
@@ -65,8 +119,7 @@
             this.textNombreProductoMant.Margin = new System.Windows.Forms.Padding(2);
             this.textNombreProductoMant.Name = "textNombreProductoMant";
             this.textNombreProductoMant.Size = new System.Drawing.Size(248, 20);
-            this.textNombreProductoMant.TabIndex = 52;
-            this.textNombreProductoMant.TextChanged += new System.EventHandler(this.textNombreProducto_TextChanged);
+            this.textNombreProductoMant.TabIndex = 72;
             // 
             // textMarcaMant
             // 
@@ -74,7 +127,7 @@
             this.textMarcaMant.Margin = new System.Windows.Forms.Padding(2);
             this.textMarcaMant.Name = "textMarcaMant";
             this.textMarcaMant.Size = new System.Drawing.Size(248, 20);
-            this.textMarcaMant.TabIndex = 51;
+            this.textMarcaMant.TabIndex = 71;
             // 
             // textCodMan
             // 
@@ -82,7 +135,7 @@
             this.textCodMan.Margin = new System.Windows.Forms.Padding(2);
             this.textCodMan.Name = "textCodMan";
             this.textCodMan.Size = new System.Drawing.Size(248, 20);
-            this.textCodMan.TabIndex = 50;
+            this.textCodMan.TabIndex = 70;
             // 
             // textPrecioMant
             // 
@@ -90,7 +143,7 @@
             this.textPrecioMant.Margin = new System.Windows.Forms.Padding(2);
             this.textPrecioMant.Name = "textPrecioMant";
             this.textPrecioMant.Size = new System.Drawing.Size(248, 20);
-            this.textPrecioMant.TabIndex = 49;
+            this.textPrecioMant.TabIndex = 69;
             // 
             // labelPrecio
             // 
@@ -99,7 +152,7 @@
             this.labelPrecio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelPrecio.Name = "labelPrecio";
             this.labelPrecio.Size = new System.Drawing.Size(77, 13);
-            this.labelPrecio.TabIndex = 48;
+            this.labelPrecio.TabIndex = 68;
             this.labelPrecio.Text = "Precio Artículo";
             // 
             // labelVoltaje
@@ -109,7 +162,7 @@
             this.labelVoltaje.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelVoltaje.Name = "labelVoltaje";
             this.labelVoltaje.Size = new System.Drawing.Size(75, 13);
-            this.labelVoltaje.TabIndex = 47;
+            this.labelVoltaje.TabIndex = 67;
             this.labelVoltaje.Text = "Stock Artículo";
             // 
             // labelMarca
@@ -119,9 +172,8 @@
             this.labelMarca.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelMarca.Name = "labelMarca";
             this.labelMarca.Size = new System.Drawing.Size(80, 13);
-            this.labelMarca.TabIndex = 46;
+            this.labelMarca.TabIndex = 66;
             this.labelMarca.Text = "Código Artículo";
-            this.labelMarca.Click += new System.EventHandler(this.labelMarca_Click);
             // 
             // label1
             // 
@@ -130,9 +182,8 @@
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(82, 13);
-            this.label1.TabIndex = 45;
+            this.label1.TabIndex = 65;
             this.label1.Text = "Modelo Artículo";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // botonIngresar
             // 
@@ -140,8 +191,8 @@
             this.botonIngresar.Margin = new System.Windows.Forms.Padding(2);
             this.botonIngresar.Name = "botonIngresar";
             this.botonIngresar.Size = new System.Drawing.Size(222, 22);
-            this.botonIngresar.TabIndex = 44;
-            this.botonIngresar.Text = "Ingresar";
+            this.botonIngresar.TabIndex = 64;
+            this.botonIngresar.Text = "Eliminar";
             this.botonIngresar.UseVisualStyleBackColor = true;
             // 
             // textCodigoMant
@@ -150,8 +201,7 @@
             this.textCodigoMant.Margin = new System.Windows.Forms.Padding(2);
             this.textCodigoMant.Name = "textCodigoMant";
             this.textCodigoMant.Size = new System.Drawing.Size(248, 20);
-            this.textCodigoMant.TabIndex = 43;
-            this.textCodigoMant.TextChanged += new System.EventHandler(this.textCodigo_TextChanged);
+            this.textCodigoMant.TabIndex = 63;
             // 
             // labelCodigo
             // 
@@ -160,9 +210,8 @@
             this.labelCodigo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelCodigo.Name = "labelCodigo";
             this.labelCodigo.Size = new System.Drawing.Size(77, 13);
-            this.labelCodigo.TabIndex = 42;
+            this.labelCodigo.TabIndex = 62;
             this.labelCodigo.Text = "Marca Artículo";
-            this.labelCodigo.Click += new System.EventHandler(this.labelCodigo_Click);
             // 
             // labelIngresarProducto
             // 
@@ -170,70 +219,15 @@
             this.labelIngresarProducto.Location = new System.Drawing.Point(154, 9);
             this.labelIngresarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIngresarProducto.Name = "labelIngresarProducto";
-            this.labelIngresarProducto.Size = new System.Drawing.Size(85, 13);
-            this.labelIngresarProducto.TabIndex = 41;
-            this.labelIngresarProducto.Text = "Ingresar Artículo";
-            this.labelIngresarProducto.Click += new System.EventHandler(this.labelIngresarProducto_Click);
+            this.labelIngresarProducto.Size = new System.Drawing.Size(83, 13);
+            this.labelIngresarProducto.TabIndex = 61;
+            this.labelIngresarProducto.Text = "Eliminar Artículo";
             // 
-            // txtTipoMan
-            // 
-            this.txtTipoMan.Location = new System.Drawing.Point(181, 240);
-            this.txtTipoMan.Margin = new System.Windows.Forms.Padding(2);
-            this.txtTipoMan.Name = "txtTipoMan";
-            this.txtTipoMan.Size = new System.Drawing.Size(248, 20);
-            this.txtTipoMan.TabIndex = 54;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(10, 240);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 13);
-            this.label2.TabIndex = 56;
-            this.label2.Text = "Tipo Artículo";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(10, 288);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 13);
-            this.label3.TabIndex = 57;
-            this.label3.Text = "Descripción";
-            // 
-            // txtDescrpcion
-            // 
-            this.txtDescrpcion.Location = new System.Drawing.Point(181, 288);
-            this.txtDescrpcion.Multiline = true;
-            this.txtDescrpcion.Name = "txtDescrpcion";
-            this.txtDescrpcion.Size = new System.Drawing.Size(244, 88);
-            this.txtDescrpcion.TabIndex = 58;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(10, 33);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(84, 13);
-            this.label4.TabIndex = 59;
-            this.label4.Text = "Nombre Artículo";
-            // 
-            // txtNombreArticulo
-            // 
-            this.txtNombreArticulo.Location = new System.Drawing.Point(181, 33);
-            this.txtNombreArticulo.Margin = new System.Windows.Forms.Padding(2);
-            this.txtNombreArticulo.Name = "txtNombreArticulo";
-            this.txtNombreArticulo.Size = new System.Drawing.Size(248, 20);
-            this.txtNombreArticulo.TabIndex = 60;
-            // 
-            // IngresarProductoMantenimiento
+            // EliminarArticuloMantenimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(447, 450);
+            this.ClientSize = new System.Drawing.Size(436, 449);
             this.Controls.Add(this.txtNombreArticulo);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtDescrpcion);
@@ -253,8 +247,10 @@
             this.Controls.Add(this.textCodigoMant);
             this.Controls.Add(this.labelCodigo);
             this.Controls.Add(this.labelIngresarProducto);
-            this.Name = "IngresarProductoMantenimiento";
-            this.Text = "Ingresar Producto Mantenimiento";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "EliminarArticuloMantenimiento";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Eliminar Artículo Mantenimiento";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -262,6 +258,12 @@
 
         #endregion
 
+        private System.Windows.Forms.TextBox txtNombreArticulo;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtDescrpcion;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtTipoMan;
         private System.Windows.Forms.Button botonRegresar;
         private System.Windows.Forms.TextBox textNombreProductoMant;
         private System.Windows.Forms.TextBox textMarcaMant;
@@ -275,11 +277,5 @@
         private System.Windows.Forms.TextBox textCodigoMant;
         private System.Windows.Forms.Label labelCodigo;
         private System.Windows.Forms.Label labelIngresarProducto;
-        private System.Windows.Forms.TextBox txtTipoMan;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtDescrpcion;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtNombreArticulo;
     }
 }

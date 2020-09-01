@@ -22,5 +22,35 @@ namespace DEVSIS_ENERGISUR
             new MenuPrincipal().Show();
             this.Visible = false;
         }
+
+        private void ConsultarPlacaVehiculo_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelConsultarProducto_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelCodigo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textCodigo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void botonConsultar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
