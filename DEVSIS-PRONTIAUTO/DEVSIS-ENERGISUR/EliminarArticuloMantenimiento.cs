@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DEVSIS_ENERGISUR
 {
-    public partial class EliminarProducto : Form
+    public partial class EliminarArticuloMantenimiento : Form
     {
-        public EliminarProducto()
+        public EliminarArticuloMantenimiento()
         {
             InitializeComponent();
         }

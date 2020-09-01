@@ -40,7 +40,7 @@ namespace DEVSIS_ENERGISUR
 
         private void eliminarProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new EliminarProducto().Show();
+            new EliminarArticuloMantenimiento().Show();
         }
 
         private void ingresarClienteToolStripMenuItem_Click(object sender, EventArgs e)
@@ -158,7 +158,7 @@ namespace DEVSIS_ENERGISUR
 
         private void vehículoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new IngresarProducto().Show();
+            new IngresarProductoVehiculo().Show();
         }
 
         private void manteniientoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -174,6 +174,41 @@ namespace DEVSIS_ENERGISUR
         private void placaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new ConsultarPlacaVehiculo().Show();
+        }
+
+        private void modeloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarModeloVehiculo().Show();
+        }
+
+        private void marcaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarMarcaVehiculo().Show();
+        }
+
+        private void productoDeMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new EliminarArticuloMantenimiento().Show();
+        }
+
+        private void códgoProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarCodigoProducto().Show();
+        }
+
+        private void nombreProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarNombreProducto().Show();
+        }
+
+        private void marcaProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarMarcaProducto().Show();
+        }
+
+        private void vehículoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            new Eliminar_vehículo().Show();
         }
     }
 }

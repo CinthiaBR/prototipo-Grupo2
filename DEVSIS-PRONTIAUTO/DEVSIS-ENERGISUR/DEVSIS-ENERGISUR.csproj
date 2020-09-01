@@ -64,6 +64,30 @@
     <Compile Include="ConsultarCedulaCliente.Designer.cs">
       <DependentUpon>ConsultarCedulaCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConsultarCodigoProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarCodigoProducto.Designer.cs">
+      <DependentUpon>ConsultarCodigoProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarMarcaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarMarcaProducto.Designer.cs">
+      <DependentUpon>ConsultarMarcaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarMarcaVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarMarcaVehiculo.Designer.cs">
+      <DependentUpon>ConsultarMarcaVehiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarModeloVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarModeloVehiculo.Designer.cs">
+      <DependentUpon>ConsultarModeloVehiculo.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConsultarPlacaVehiculo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,11 +176,11 @@
     <Compile Include="EliminarCliente.Designer.cs">
       <DependentUpon>EliminarCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="EliminarProducto.cs">
+    <Compile Include="EliminarArticuloMantenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EliminarProducto.Designer.cs">
-      <DependentUpon>EliminarProducto.cs</DependentUpon>
+    <Compile Include="EliminarArticuloMantenimiento.Designer.cs">
+      <DependentUpon>EliminarArticuloMantenimiento.cs</DependentUpon>
     </Compile>
     <Compile Include="EliminarProveedor.cs">
       <SubType>Form</SubType>
@@ -188,11 +212,11 @@
     <Compile Include="IngresarCliente.Designer.cs">
       <DependentUpon>IngresarCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="IngresarProducto.cs">
+    <Compile Include="IngresarProductoVehiculo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IngresarProducto.Designer.cs">
-      <DependentUpon>IngresarProducto.cs</DependentUpon>
+    <Compile Include="IngresarProductoVehiculo.Designer.cs">
+      <DependentUpon>IngresarProductoVehiculo.cs</DependentUpon>
     </Compile>
     <Compile Include="IngresarProductoMantenimiento.cs">
       <SubType>Form</SubType>
@@ -242,6 +266,18 @@
     <EmbeddedResource Include="ConsultarCedulaCliente.resx">
       <DependentUpon>ConsultarCedulaCliente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarCodigoProducto.resx">
+      <DependentUpon>ConsultarCodigoProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarMarcaProducto.resx">
+      <DependentUpon>ConsultarMarcaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarMarcaVehiculo.resx">
+      <DependentUpon>ConsultarMarcaVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarModeloVehiculo.resx">
+      <DependentUpon>ConsultarModeloVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConsultarPlacaVehiculo.resx">
       <DependentUpon>ConsultarPlacaVehiculo.cs</DependentUpon>
     </EmbeddedResource>
@@ -284,8 +320,8 @@
     <EmbeddedResource Include="EliminarCliente.resx">
       <DependentUpon>EliminarCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EliminarProducto.resx">
-      <DependentUpon>EliminarProducto.cs</DependentUpon>
+    <EmbeddedResource Include="EliminarArticuloMantenimiento.resx">
+      <DependentUpon>EliminarArticuloMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EliminarProveedor.resx">
       <DependentUpon>EliminarProveedor.cs</DependentUpon>
@@ -302,8 +338,8 @@
     <EmbeddedResource Include="IngresarCliente.resx">
       <DependentUpon>IngresarCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="IngresarProducto.resx">
-      <DependentUpon>IngresarProducto.cs</DependentUpon>
+    <EmbeddedResource Include="IngresarProductoVehiculo.resx">
+      <DependentUpon>IngresarProductoVehiculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IngresarProductoMantenimiento.resx">
       <DependentUpon>IngresarProductoMantenimiento.cs</DependentUpon>
