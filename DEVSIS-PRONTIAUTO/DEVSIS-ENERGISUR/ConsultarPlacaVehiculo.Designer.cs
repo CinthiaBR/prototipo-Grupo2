@@ -1,6 +1,6 @@
 ﻿namespace DEVSIS_ENERGISUR
 {
-    partial class ConsultarCodigoProducto
+    partial class ConsultarPlacaVehiculo
     {
         /// <summary>
         /// Required designer variable.
@@ -39,70 +39,79 @@
             // 
             // botonConsultar
             // 
-            this.botonConsultar.Location = new System.Drawing.Point(411, 514);
+            this.botonConsultar.Location = new System.Drawing.Point(125, 418);
+            this.botonConsultar.Margin = new System.Windows.Forms.Padding(2);
             this.botonConsultar.Name = "botonConsultar";
-            this.botonConsultar.Size = new System.Drawing.Size(329, 27);
+            this.botonConsultar.Size = new System.Drawing.Size(247, 22);
             this.botonConsultar.TabIndex = 39;
             this.botonConsultar.Text = "Consultar";
             this.botonConsultar.UseVisualStyleBackColor = true;
             // 
             // textCodigo
             // 
-            this.textCodigo.Location = new System.Drawing.Point(241, 41);
+            this.textCodigo.Location = new System.Drawing.Point(287, 40);
+            this.textCodigo.Margin = new System.Windows.Forms.Padding(2);
             this.textCodigo.Name = "textCodigo";
-            this.textCodigo.Size = new System.Drawing.Size(329, 22);
+            this.textCodigo.Size = new System.Drawing.Size(316, 20);
             this.textCodigo.TabIndex = 38;
             // 
             // labelCodigo
             // 
             this.labelCodigo.AutoSize = true;
-            this.labelCodigo.Location = new System.Drawing.Point(12, 41);
+            this.labelCodigo.Location = new System.Drawing.Point(122, 47);
+            this.labelCodigo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelCodigo.Name = "labelCodigo";
-            this.labelCodigo.Size = new System.Drawing.Size(132, 17);
+            this.labelCodigo.Size = new System.Drawing.Size(78, 13);
             this.labelCodigo.TabIndex = 37;
-            this.labelCodigo.Text = "Código de producto";
+            this.labelCodigo.Text = "placa vehículo";
             // 
             // labelConsultarProducto
             // 
             this.labelConsultarProducto.AutoSize = true;
-            this.labelConsultarProducto.Location = new System.Drawing.Point(200, 11);
+            this.labelConsultarProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelConsultarProducto.Location = new System.Drawing.Point(321, 9);
+            this.labelConsultarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelConsultarProducto.Name = "labelConsultarProducto";
-            this.labelConsultarProducto.Size = new System.Drawing.Size(128, 17);
+            this.labelConsultarProducto.Size = new System.Drawing.Size(148, 18);
             this.labelConsultarProducto.TabIndex = 36;
-            this.labelConsultarProducto.Text = "Consultar producto";
+            this.labelConsultarProducto.Text = "Consultar vehículo";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(40, 100);
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.Control;
+            this.dataGridView1.Location = new System.Drawing.Point(30, 81);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1000, 400);
+            this.dataGridView1.Size = new System.Drawing.Size(750, 325);
             this.dataGridView1.TabIndex = 41;
             // 
             // botonRegresar
             // 
-            this.botonRegresar.Location = new System.Drawing.Point(76, 514);
+            this.botonRegresar.Location = new System.Drawing.Point(440, 418);
+            this.botonRegresar.Margin = new System.Windows.Forms.Padding(2);
             this.botonRegresar.Name = "botonRegresar";
-            this.botonRegresar.Size = new System.Drawing.Size(329, 27);
+            this.botonRegresar.Size = new System.Drawing.Size(247, 22);
             this.botonRegresar.TabIndex = 42;
             this.botonRegresar.Text = "Regresar";
             this.botonRegresar.UseVisualStyleBackColor = true;
             this.botonRegresar.Click += new System.EventHandler(this.botonRegresar_Click);
             // 
-            // ConsultarCodigoProducto
+            // ConsultarPlacaVehiculo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1182, 553);
+            this.ClientSize = new System.Drawing.Size(886, 449);
             this.Controls.Add(this.botonRegresar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.botonConsultar);
             this.Controls.Add(this.textCodigo);
             this.Controls.Add(this.labelCodigo);
             this.Controls.Add(this.labelConsultarProducto);
-            this.Name = "ConsultarCodigoProducto";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "ConsultarPlacaVehiculo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ConsultarCodigoProducto";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
