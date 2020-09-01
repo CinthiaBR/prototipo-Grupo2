@@ -73,12 +73,12 @@ namespace DEVSIS_ENERGISUR
 
         private void nombreDelProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ConsultarNombreProducto().Show();
+            
         }
 
         private void códigoDelProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ConsultarCodigoProducto().Show();
+            new ConsultarPlacaVehiculo().Show();
         }
 
         private void rUCDeProveedorToolStripMenuItem_Click(object sender, EventArgs e)
@@ -164,6 +164,16 @@ namespace DEVSIS_ENERGISUR
         private void manteniientoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new IngresarProductoMantenimiento().Show();
+        }
+
+        private void productosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void placaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarPlacaVehiculo().Show();
         }
     }
 }
